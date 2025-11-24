@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anagram Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Anagram Checker</h1>
+        <div class="container">
+            <input id="word1" type="text" placeholder="Enter first word">
+            <input id="word2" type="text" placeholder="Enter second word">
+    
+            <button onclick="areAnagrams(document.getElementById('word1').value, document.getElementById('word2').value)">Check</button>
+
+            <div id="result"></div>
+        </div>
+
+        <div class="examples">
+            <h4>Can't think of any? Try these!</h4>
+            <button onclick="areAnagrams('Listen', 'Silent')">Listen - Silent</button>
+            <button onclick="areAnagrams('Astronomer', 'Moon starer')">Astronomer - Moon starer</button>
+            <button onclick="areAnagrams('Hello', 'World')">Hello - World</button>
+            <button onclick="areAnagrams('The eyes', 'They see')">The eyes - They see</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
