@@ -58,3 +58,24 @@ button:hover {
 .examples button:hover {
     background-color: #2b5ca1;
 }
+
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        width: 90%; 
+    }
+
+   input{
+        width: 90%;
+   }
+
+    .examples button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
