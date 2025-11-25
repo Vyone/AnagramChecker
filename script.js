@@ -24,3 +24,9 @@ function areAnagrams(word1, word2) {
     }
 }
 
+function fillWords(word1, word2) {
+    document.getElementById("word1").value = word1;
+    document.getElementById("word2").value = word2;
+
+    areAnagrams(word1, word2);
+}
